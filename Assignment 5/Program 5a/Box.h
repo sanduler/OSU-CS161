@@ -21,7 +21,7 @@ private:
     double length;
 public:
     Box();
-    Box(int, int, int);
+    Box(double, double, double);
     ~Box();
 
     //setters
@@ -38,3 +38,4 @@ public:
     double calcVolume();
     double calcSurfaceArea();
 };
+#endif
