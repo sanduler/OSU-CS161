@@ -48,3 +48,4 @@ Assignment 5/Project5b/cmake-build-debug/Makefile
 *.marks
 *.check_cache
 *.cpp
+.DS_Store
