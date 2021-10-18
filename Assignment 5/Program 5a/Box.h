@@ -21,19 +21,20 @@ private:
     double length;
 public:
     Box();
+    Box(int, int, int);
     ~Box();
 
     //setters
-    setHeight(double);
-    setWidth(double);
-    setLength(double);
+    void setHeight(double);
+    void setWidth(double);
+    void setLength(double);
     
     //getters
-    getHeight();
-    getWidth();
-    getLength();
+    double getHeight();
+    double getWidth();
+    double getLength();
 
     //calcs
-    calcVolume();
-    calcSurfaceArea();
+    double calcVolume();
+    double calcSurfaceArea();
 };

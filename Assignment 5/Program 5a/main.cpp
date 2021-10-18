@@ -17,5 +17,34 @@ using std::endl;
 
 int main()
 {
+    Box box1(2.4, 7.1, 5.0);
+    Box box2;
+    double volume1 = box1.calcVolume();
+    double surfaceArea1 = box1.calcSurfaceArea();
+
+    double hight;
+    double width;
+    double length;
+
+    cout << "Please enter the specification of the box: " << endl;
+    cout << "Hight:";
+    cin >> hight;
+    cout << "Width:";
+    cin >> width;
+    cout << "Length:";
+    cin >> length;
+
+    box2.setHeight(hight);
+    box2.setWidth(width);
+    box2.setLength(length);
+
+    double volume2 = box2.calcVolume();
+    double surfaceArea2 = box2.calcSurfaceArea();
+
+    cout << "The volume of box 1 is " << volume1 << " meters cubed.";
+    cout << "The surface area of box 1 is " << surfaceArea1 << " meters cubed.";
+    cout << "The volume of box 1 is " << volume2 << " meters cubed.";
+    cout << "The surface area of box 1 is " << surfaceArea2 << " meters cubed.";
+
     return 0;
 }

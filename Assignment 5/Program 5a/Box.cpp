@@ -23,6 +23,18 @@ Box::Box()
     height = 1.0;
 }
 
+
+/******************
+ * Name: Overloaded Constructor, Box::Box()
+ * Discription: Intializes all three variables set by the user.
+ * ***************/
+Box::Box(int length1, int width1, int height1)
+{
+    length = length1;
+    width = width1;
+    height = height1;
+}
+
 /******************
  * Destructor
  * ***************/
@@ -101,7 +113,7 @@ Box::getWidth()
  * ***************/
 Box::calcVolume()
 {
-    return (length * width * height)
+    return (length * width * height);
 }
 
 /******************
@@ -110,5 +122,5 @@ Box::calcVolume()
  * ***************/
 Box::calcSurfaceArea()
 {
-    return ((2*length*width)+(2*length*height)++(2*width*height))
+    return ((2*length*width)+(2*length*height)+(2*width*height));
 }
