@@ -20,8 +20,8 @@ class Taxicab {
         int getXCoord(int);
         int getYCoord(int);
         int getDistanceTraveled(int);
-    moveX
-    moveY
+        int moveX(int);
+        int moveY(int);
 };
 
 
