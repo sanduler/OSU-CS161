@@ -37,3 +37,13 @@ Assignment 4/Project 4a/main.cpp
 *.txt
 *.log
 *.cbp
+*.json
+*.iml
+*.bin
+*.check_cache
+*.make
+*.includecache
+*.marks
+*.internal
+Assignment 5/Project 5b/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c
+Assignment 5/Project 5b/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
