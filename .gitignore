@@ -47,4 +47,3 @@ Assignment 5/Project5b/cmake-build-debug/Makefile
 *.internal
 *.marks
 *.check_cache
-*.cpp
