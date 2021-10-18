@@ -37,15 +37,3 @@ Assignment 4/Project 4a/main.cpp
 *.txt
 *.log
 *.cbp
-Assignment 5/Project5b/cmake-build-debug/Makefile
-*.json
-*.iml
-*.bin
-*.c
-*.make
-*.includecache
-*.internal
-*.marks
-*.check_cache
-*.cpp
-.DS_Store
