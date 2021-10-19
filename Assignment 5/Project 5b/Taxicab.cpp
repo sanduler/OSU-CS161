@@ -10,11 +10,14 @@
 *                and a method that calculates and returns the surface area of the Box.
 *******************************************************************************/
 #include "Taxicab.h"
+#include <iostream>
+#include <cmath>
 
 Taxicab::Taxicab()
 {
     XCoord = 0;
     YCoord = 0;
+    distance = 0;
 
 }
 
@@ -22,29 +25,33 @@ Taxicab::Taxicab(int x, int y)
 {
     XCoord = x;
     YCoord = y;
+    distance = 0;
 }
 
-int Taxicab::getXCoord(int)
+int Taxicab::getXCoord()
 {
-    return 0;
+    return XCoord;
 }
 
-int Taxicab::getYCoord(int)
+int Taxicab::getYCoord()
 {
-    return 0;
+    return YCoord;
 }
 
-int Taxicab::getDistanceTraveled(int)
+int Taxicab::getDistanceTraveled()
 {
-    return 0;
+
+    return distance;
 }
 
-int Taxicab::moveX(int)
+void Taxicab::moveX(int x)
 {
-    return 0;
+    distance = distance + abs(x);
+    XCoord = XCoord + x;
 }
 
-int Taxicab::moveY(int)
+void Taxicab::moveY(int y)
 {
-    return 0;
+    distance = distance + abs(y);
+    YCoord = YCoord + y;
 }

@@ -18,15 +18,15 @@ class Taxicab {
     private:
         int XCoord;
         int YCoord;
-
+        int distance;
     public:
         Taxicab();
         Taxicab(int, int);
-        int getXCoord(int);
-        int getYCoord(int);
-        int getDistanceTraveled(int);
-        int moveX(int);
-        int moveY(int);
+        int getXCoord();
+        int getYCoord();
+        int getDistanceTraveled();
+        void moveX(int);
+        void moveY(int);
 };
 
 
