@@ -18,18 +18,19 @@ public:
     Player();
     Player(std::string, int, int, int);
 
+    //setters
+    void setName(std::string);
+    void setPoints(int);
+    void setRebounds(int);
+    void setAssists(int);
+
     //getters
     std::string getName();
     int getPoints();
     int getRebounds();
     int getAssists();
 
-    //setters
-    void setName(std::string);
-    void setPoints(int);
-    void setRebounds(int);
-    void setAssists(int);
 };
 
 
-#endif //ASSIGNMENT_6_PLAYER_H
+#endif
