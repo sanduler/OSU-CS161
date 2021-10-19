@@ -16,7 +16,12 @@
 
 class Taxicab {
     private:
+        int XCoord;
+        int YCoord;
+
     public:
+        Taxicab();
+        Taxicab(int, int);
         int getXCoord(int);
         int getYCoord(int);
         int getDistanceTraveled(int);
