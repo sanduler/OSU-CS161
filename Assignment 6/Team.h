@@ -1,7 +1,8 @@
-//
-// Created by Ruben Sanduleac on 10/19/21.
-//
-
+/*******************************************************************************
+** Author:       Ruben Sanduleac
+** Date:         October 19th, 2021
+** Description:
+*******************************************************************************/
 #ifndef ASSIGNMENT_6_TEAM_H
 #define ASSIGNMENT_6_TEAM_H
 
