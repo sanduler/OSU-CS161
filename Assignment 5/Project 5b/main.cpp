@@ -1,13 +1,18 @@
 /*******************************************************************************
 ** Author:       Ruben Sanduleac
-** Date:         October 18th, 2021
-** Description:  Write a class called Box that has three double fields called height,
-*                width and length.  The class should have set methods for each field.
-*                It should have a three-parameter constructor that takes three doubles
-*                and uses them to initialize the fields of the Box.
-*                It should have a default constructor that initializes each field to 1.
-*                It should have a method that calculates and returns the volume of the Box
-*                and a method that calculates and returns the surface area of the Box.
+** Date:         October 19th, 2021
+** Description:  This program has a class called Taxicab that has three int fields
+ *               (data members) to store its current x- and y-coordinates and the
+ *               total distance it has driven so far (the actual distance driven by the Taxicab,
+ *               not the Euclidean distance from it's starting point).
+ *               The class should have a constructor that takes two parameters and uses them to
+ *               initialize the coordinates, and also initializes the distance traveled to zero.
+ *               The class should have a default constructor that sets all three fields to zero.
+ *               The class should have a get method for each data member.
+ *               It should have a method called moveX that takes an int parameter that tells
+ *               how far the Taxicab should shift left or right.
+ *               It should have a method called moveY that takes an int parameter that
+ *               tells how far the Taxicab should shift up or down.
 *******************************************************************************/
 #include <iostream>
 #include "Taxicab.h"
