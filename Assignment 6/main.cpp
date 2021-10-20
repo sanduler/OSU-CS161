@@ -21,6 +21,8 @@ int main()
     Team team1(p1, p2, p3, p4, p5);
     Player p = team1.getShootingGuard();
     std::cout << p.getName() << std::endl;
-    
+    std::cout << p.getPoints() << std::endl;
+    std::cout << team1.totalPoints() << std::endl;
+
     return 0;
 }

@@ -115,6 +115,12 @@ Player Team::getCenter()
 *******************************************************************************/
 int Team::totalPoints()
 {
-    int total = Center.getPoints() + PowerForward.getPoints() + SmallForward.getPoints() + ShootingGuard.getPoints() + SmallForward.getPoints();
+    int total = 0;
+    total += getPointGuard().getPoints();
+    total += getCenter().getPoints();
+    total += getPowerForward().getPoints();
+    total += getSmallForward().getPoints();
+    total += getShootingGuard().getPoints();
+
     return total;
 }
