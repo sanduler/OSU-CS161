@@ -29,6 +29,7 @@ public:
     int getPoints();
     int getRebounds();
     int getAssists();
+    bool hasMorePointsThan(Player);
 
 };
 

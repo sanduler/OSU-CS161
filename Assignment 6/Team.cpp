@@ -63,3 +63,58 @@ void Team::setCenter(Player cnt)
 {
     Center = cnt;
 }
+
+/*******************************************************************************
+** Function Name: Player Team::getPointGuard()
+** Description: returns the PointGuard stats
+*******************************************************************************/
+Player Team::getPointGuard()
+{
+    return PointGuard;
+}
+
+/*******************************************************************************
+** Function Name: Player Team::getShootingGuard()
+** Description: returns the ShootingGuard stats
+*******************************************************************************/
+Player Team::getShootingGuard()
+{
+    return ShootingGuard;
+}
+
+/*******************************************************************************
+** Function Name: Player Team::getShootingGuard()
+** Description: returns the ShootingGuard stats
+*******************************************************************************/
+Player Team::getSmallForward()
+{
+    return SmallForward;
+}
+
+/*******************************************************************************
+** Function Name: Player Team::getPowerForward()
+** Description: returns the PowerForward stats
+*******************************************************************************/
+Player Team::getPowerForward()
+{
+    return PowerForward;
+}
+
+/*******************************************************************************
+** Function Name: Player Team::getCenter()
+** Description: returns the Center stats
+*******************************************************************************/
+Player Team::getCenter()
+{
+    return Center;
+}
+
+/*******************************************************************************
+** Function Name: Player Team::getCenter()
+** Description: returns the Center stats
+*******************************************************************************/
+int Team::totalPoints()
+{
+    int total = Center.getPoints() + PowerForward.getPoints() + SmallForward.getPoints() + ShootingGuard.getPoints() + SmallForward.getPoints();
+    return total;
+}

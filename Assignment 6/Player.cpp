@@ -105,3 +105,15 @@ int Player::getAssists()
 {
     return assists;
 }
+
+bool Player::hasMorePointsThan(Player p)
+{
+    if (points > p.points )
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
