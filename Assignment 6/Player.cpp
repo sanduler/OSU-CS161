@@ -106,6 +106,10 @@ int Player::getAssists()
     return assists;
 }
 
+/*******************************************************************************
+** Function Name: bool Player::hasMorePointsThan(Player p)
+** Description: checks a players inserted has more points
+*******************************************************************************/
 bool Player::hasMorePointsThan(Player p)
 {
     if (points > p.points )

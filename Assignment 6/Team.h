@@ -1,7 +1,9 @@
 /*******************************************************************************
 ** Author:       Ruben Sanduleac
 ** Date:         October 19th, 2021
-** Description:
+** Description:  Creates a team class. Passes a Player class as a memeber. Each Player
+ *               on a team has different postions which in turn sum up the total
+ *               points for the game.
 *******************************************************************************/
 #ifndef ASSIGNMENT_6_TEAM_H
 #define ASSIGNMENT_6_TEAM_H

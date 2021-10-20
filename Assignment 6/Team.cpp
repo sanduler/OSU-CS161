@@ -1,7 +1,9 @@
 /*******************************************************************************
 ** Author:       Ruben Sanduleac
 ** Date:         October 19th, 2021
-** Description:
+** Description:  Creates a team class. Passes a Player class as a memeber. Each Player
+ *               on a team has different postions which in turn sum up the total
+ *               points for the game.
 *******************************************************************************/
 #include "Team.h"
 
@@ -110,8 +112,8 @@ Player Team::getCenter()
 }
 
 /*******************************************************************************
-** Function Name: Player Team::getCenter()
-** Description: returns the Center stats
+** Function Name: int Team::totalPoints()
+** Description: returns the total points
 *******************************************************************************/
 int Team::totalPoints()
 {

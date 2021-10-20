@@ -1,7 +1,8 @@
 /*******************************************************************************
 ** Author:       Ruben Sanduleac
 ** Date:         October 19th, 2021
-** Description:
+** Description:  This program creates two classes teams and players inside the team
+ *               the user can create team names and sc ores for each of the postitions.
 *******************************************************************************/
 #include <iostream>
 #include "Player.h"

@@ -1,7 +1,9 @@
 /*******************************************************************************
 ** Author:       Ruben Sanduleac
 ** Date:         October 19th, 2021
-** Description:
+** Description:  Player class used to create the basic structure of a player on a team.
+ *               each plaeyrs scores, assists or rebounds. The class gets passed down
+ *               to the team class.
 *******************************************************************************/
 #ifndef ASSIGNMENT_6_PLAYER_H
 #define ASSIGNMENT_6_PLAYER_H
