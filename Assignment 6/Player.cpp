@@ -36,11 +36,11 @@ Player::Player(std::string nam, int poi, int reb, int asi)
 
 /*******************************************************************************
 ** Function Name: void Player::setName(std::string player)
-** Description: sets the name of the player
+** Description: sets the name of the play
 *******************************************************************************/
-void Player::setName(std::string player)
+void Player::setName(std::string play)
 {
-    namePlayer = player;
+    namePlayer = play;
 }
 
 /*******************************************************************************

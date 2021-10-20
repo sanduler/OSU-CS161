@@ -16,25 +16,22 @@ private:
            Center;
 public:
 
-    //constructors
-    Team();
-
-    //overloaded constructors
+    // constructors
     Team(Player, Player, Player, Player, Player);
 
     //setters
-    void setPointGuard(int);
-    void setShootingGuard(int);
-    void setSmallForward(int);
-    void setPowerForward(int);
-    void setCenter(int);
+    void setPointGuard(Player);
+    void setShootingGuard(Player);
+    void setSmallForward(Player);
+    void setPowerForward(Player);
+    void setCenter(Player);
 
     //getters
-    int getPointGuard();
-    int getShootingGuard();
-    int getSmallForward();
-    int getPowerForward();
-    int getCenter();
+    Player getPointGuard();
+    Player getShootingGuard();
+    Player getSmallForward();
+    Player getPowerForward();
+    Player getCenter();
 
     //total
     int totalPoints();
